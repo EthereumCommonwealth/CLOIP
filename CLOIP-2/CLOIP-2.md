@@ -40,9 +40,9 @@ In our simulations, we evaluated the potential benefits of the proposed Monetary
 We examined the maximum issuance for different numbers of validators. The APR, which depends on the number of coins at stake and the rewards distributed for different numbers of validators, is as follows: 
 
 
-![Max Issuance](./max_issuance.svg)
+![Max Issuance](./CLOIP/CLOIP-2/Images/max_issuance.svg)
 
-![APR](./APR.svg)
+![APR](./CLOIP/CLOIP-2/Images/APR.svg)
 
 ### B. Pow vs. PoS for Different Staking Requirements
 
@@ -50,7 +50,7 @@ We evaluated the potential implementation of a Proof-of-Stake (PoS) system withi
 
 A critical parameter is the maximum circulating supply. We compared the current PoW emission with the PoS under evaluation by Callisto Network for different numbers of validators. 
 
-![POS vs POW](./POSvsPOW.svg)
+![POS vs POW](./CLOIP/CLOIP-2/Images/POSvsPOW.svg)
 
 ## Conclusions
 
