@@ -1,12 +1,115 @@
 ---
-title: <Callisto Network Proof of Stake Monetary Policy>
-description: <A Monetary policy that is designed to work with the transition of Callisto Network to Proof Of Stake consensus>
-author: <Dr ZS (@GDr-ZS)>
-discussions-to: <URL>
-status: Draft
-type: <Standards Track>
-category: <Core> # Only required for Standards Track. Otherwise, remove this field.
-created: <(2023-07-17) 
+CLOIP: 2
+title: Callisto Network Proof of Stake Monetary Policy
+description: A Monetary policy that is designed to work with the transition of Callisto Network to Proof Of Stake consensus
+author: Dr ZS (@GDr-ZS)
+status: Last Call
+type: Standards Track
+category: Core 
+created: 2023-07-17 
 ---
 
+## Abstract
+
+Callisto Network is transitioning to Proof of Stake consensus for enhanced energy efficiency and security. In this proposal, we present the changes of the Monetary Policy (MP) towards encouraging the further decentralization of the network while enhancing its value.
+
+
+## Motivation
+
+The transition of Callisto Network to a Proof of Stake (PoS) consensus mechanism creates the need for a Monetary Policy (MP) that will ensure the fair distribution of rewards among the validators while increasing the security of the network and further decentralization by creating the appropriate economic incentives. 
+
+
+## Introduction
+In the dawn of a new era, Callisto Network is actively pivoting to meet the demands of new emerging decentralized Applications (dApps). Given the upsurge in environmental consciousness in the tech sector, we acknowledge the importance of sustainable solutions for the longevity of blockchain networks. In response, we have decided to harness the power of the eco-friendly Proof of Stake (PoS) consensus mechanism.
+
+In the current PoW model, miners compete against each other to solve complex mathematical problems, which require a significant amount of computational power and, consequently, energy. On the other hand, by incorporating a Proof Of Stake mechanism, significant advantages can be achieved in addition to lower power consumption. PoS is highly energy-efficient compared to Proof of Work (PoW). At the same time, it bolsters security as validators, chosen based on their staked collateral, deters potential attackers who would need to possess a substantial portion of the network's tokens to launch successful attacks. Also, PoS promotes greater decentralization, lowering barriers to entry and allowing more individuals to participate in the validation process, enhancing network diversity. Moreover, the ability of PoS to process transactions quickly improves the network's scalability, a critical factor for networks handling a high volume of transactions. Finally, PoS creates stable and predictable economic incentives, as validators earn transaction fees for block creation, making network participation economically attractive. 
+
+However, the transition to PoS incorporates structural changes in the operation of the distributed network. Time is split into slots, also called time slots and significant changes are brought, including transaction latency that can be bounded in contrast to proof of work in which transactions are included in the blockchain when miners manage to solve the PoW puzzle. In each time slot, a validator is randomly selected among the available ones, given the number of coins at stake. To decrease the trade-off between the communication of nodes that depends on the networking capabilities of the infrastructure and enable the decentralized operation with nodes of different technologies being able to take part, time slots can be grouped into the so-called epochs, and a validator is selected for each epoch. Each validator is randomly given a time slot to produce a block. The block is produced and a reward is given. This is the primary incentive of a PoS system. The reward for producing a block consists of (i) a base reward that is fixed and (ii) a reward per proposer for different operations. In total, four types of rewards are given: (i) Block proposed, (ii) Correct attestation, (iii) Timely attestation, (iv) Whistleblower.
+
+## Rationale
+The main difference between PoW and PoS is that rewards do not need to be fixed per block. Instead of miners competing to get the rewards, a reward can be given to the validators that is proportional to the number of coins at stake (increment). A hard cap on the number of coins a validator can have at stake is placed to enable the further decentralization of the network, as more users can set up a validator node. Also, users who want to increase their stake need to create more nodes. This increases the decentralization of the network and therefore increases its security. Validators must provide computing power, memory, and bandwidth above a given threshold.
+Therefore a deposit of 200.000 CLO coins is placed as a hard cap. Let T be the number of increments (number of nodes) the users hold; the PoS chain is designed to issue Tb CLO in rewards per epoch. This is the maximum issuance – the maximum number of new Callisto Network Coins the chain can generate. 
+From the above, it is obvious that the function that describes the emission of new coins relates the emission with the number of active validators. When the number of validators is low, a higher number of coins is given to the validators compared to the case where a high number of validators is active. The crucial balance between incentives to participate and disincentives to prevent attacks lies in choosing the optimal distribution of rewards. With a function of the form f(N) =a*N, where a is a fixed value that plays the role of a knob and N is the number of active validators, a moderate scaling rate that neither overly incentivizes nor strongly disincentivizes new validators from joining is offered. With the aforementioned function, each validator's reward decreases as the square root of the total number of validators, making it less attractive for validators to carry out discouragement attacks, attempting to force others to exit to increase their rewards. Moreover, this choice promotes an equilibrium number of validators that balances staking rewards against perceived risks and opportunity costs, fostering a stable and secure network.
+
+An important parameter is the network's security, which in the PoS case depends on the number of validators and the stake required. In the case of a PoS consensus similar to the one followed by Ethereum, an attacker must own more than ⅔ of the validators to perform one of the attacks . Furthermore, the PoS mechanism includes built-in defenses against such an attack. These come as penalties or "slashing" for validators who attempt to act maliciously. If a validator tries to manipulate the network (such as by double-spending or censoring transactions), a portion of their staked coins will be removed ("slashed") as a penalty. This significantly increases the potential cost of an attack.
+.
+Lowering the barriers to entry in PoS blockchain staking, for example, by selecting 200,000 CLO staking requirements to run a validator, significantly improves network decentralization and security. As the cost to be a validator is lower, more users can participate in the transaction validation process, thereby strengthening network security. In contrast, the cost of an attack for malicious parties is even higher, despite the low stakes involved.
+
+Hence, the maximum emission per year is: 
+Max Annual Emission=1115000*N 
+
+Callisto Network Treasury
+One of the unique features of Callisto Network is its treasury. Thanks to its treasury Callisto Network endured the longest bear market in crypto history and supported its development in the early years. We are committed to preserving and enhancing the Callisto Network treasury over time. To achieve this, we continuously allocate 10% of the validators' rewards directly to the treasury.
+Callisto Treasury=0.1*(Annual Emission)
+
+
+
+## Backwards Compatibility
+
+
+This CLOIP does not introduce any known backward compatibility issues.
+
+
+## Simulation Experiments
+In the following simulations, we showcase the advantages of the proposed Monetary Policy and adapt to the market changes compared to the current Monetary Policy model.
+A. Maximum Issuance and APR
+Initially, we examined the maximum issuance for the different numbers of validators. 
+
+Hence, the APR, which depends on the number of coins at stake and the rewards distributed for the different number of validators, is the following.
+
+
+
+
+B. Pow vs. PoS for Different Staking Requirements
+
+We need to evaluate the potential implementation of a Proof-of-Stake (PoS) system within the Callisto Network. This evaluation would be compared against the current Proof-of-Work (PoW) monetary policy in place. This comparison aims to highlight the potential benefits that a transition to PoS could bring to the Callisto Network.
+
+A critical parameter is the maximum circulating supply. The following chart compares the current PoW emission with the PoS under evaluation by Callisto Network. We consider three different cases of (i) 1000, (ii) 10.000, and (iii) 20.000 validators that correspond to a minimum, average, and maximum number of validators, respectively. Please note that if the number of active validators falls below the average, the emission of CLO coins will be further reduced. Consequently, the advantages of this shift could become more pronounced.
+
+
+The emission of new tokens is also presented in the following table
+
+
+
+Validators
+Cold Staking
+Treasury
+Diff (%)
+Previous MP
+102,176,640
+81,730,800
+20,435,328
+
+
+1K Validators
+21,154,991.92
+0
+2,115,499.192
+- 88.61203098
+10K Validators
+66,897,958.35
+0
+6,689,795.835
+-63.98807997
+20K Validators
+94,608,000
+0
+9,460,800
+-49.07145429
+
+
+
+##Conclusions
+In light of our discussion, we anticipate that migrating from a Proof-of-Work to a Proof-of-Stake system for Callisto Network could significantly change coin emission rates. Specifically, depending on the number of active validators, we anticipate a decrease in CLO coin emissions from 49% to 89%.
+
+The consequence of this emission contraction is two-fold. Firstly, it could amplify the efficiency of the upcoming burning mechanism, driving a greater deflationary trend. This intensification of deflation could, in turn, lead to an escalation in the inherent value of each coin. Secondly, increasing the coin value may further incentivize validators within Callisto Network by increasing their potential rewards. This stronger incentive scheme could encourage sustained participation and stability within the network, bolstering the overall health and longevity of the ecosystem.
+
+In conclusion, the proposed shift to a Proof-of-Stake system offers substantial advantages while necessitating a detailed and thoughtful implementation process. It promises to enhance the Callisto Network's operational efficiency, stimulate CLO coin value, and strengthen the rewards system for validators. All these aspects play a pivotal role in improving the value proposition of Callisto Network for users, CLO coin holders, and other participants, thus paving the way for a promising and sustainable future.
+
+
+
+
+## Copyright
+
+Copyright and related rights waived via [CC0](../LICENSE.md).
 
