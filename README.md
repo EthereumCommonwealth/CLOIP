@@ -6,7 +6,7 @@ Each proposal will be reviewed and discussed by the core and volunteer developer
 
 ## Contributing
 
-To submit a proposal, you can clone the repository and add your CLOIP. A CLOIP template is available [here](CLOIP-template-link). Then submit a Pull Request to Callisto Network’s CLOIPs repository.
+To submit a proposal, you can clone the repository and add your CLOIP. A CLOIP template is available [here](/CLOIP-template.md). Then submit a Pull Request to Callisto Network’s CLOIPs repository.
 
 ## CLOIP status terms
 
