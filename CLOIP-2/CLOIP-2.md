@@ -62,4 +62,4 @@ The security of the PoS mechanism is maintained through in-built penalties or "s
 
 ## Copyright
 
-Each EIP must be placed under the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+This CLOIP is placed under the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
