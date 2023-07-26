@@ -10,14 +10,14 @@ To submit a proposal, you can clone the repository and add your CLOIP. A CLOIP t
 
 ## CLOIP status terms
 
-- **Idea** - An idea that is pre-draft. This is not tracked within the EIP Repository.
-- **Draft** - The first formally tracked stage of an EIP in development. An EIP is merged by an EIP Editor into the EIP repository when properly formatted.
-- **Review** - An EIP Author marks an EIP as ready for and requesting Peer Review.
-- **Last Call** - This is the final review window for an EIP before moving to FINAL. An EIP editor will assign the Last Call status and set a review end date (`last-call-deadline`), typically 14 days later. If this period results in necessary normative changes, it will revert the EIP to Review.
-- **Final** - This EIP represents the final standard. A Final EIP exists in a state of finality and should only be updated to correct errata and add non-normative clarifications.
-- **Stagnant** - Any EIP in Draft or Review if inactive for a period of 6 months or greater is moved to Stagnant. An EIP may be resurrected from this state by Authors or EIP Editors by moving it back to Draft.
-- **Withdrawn** - The EIP Author(s) have withdrawn the proposed EIP. This state has finality and can no longer be resurrected using this EIP number. If the idea is pursued at later date, it is considered a new proposal.
-- **Living** - A special status for EIPs that are designed to be continually updated and not reach a state of finality. This includes, most notably, EIP-1.
+- **Idea** - An idea that is pre-draft. This is not tracked within the CLOIP Repository.
+- **Draft** - The first formally tracked stage of an CLOIP in development. An CLOIP is merged by an CLOIP Editor into the CLOIP repository when properly formatted.
+- **Review** - An CLOIP Author marks an CLOIP as ready for and requesting Peer Review.
+- **Last Call** - This is the final review window for an CLOIP before moving to FINAL. An CLOIP editor will assign the Last Call status and set a review end date (`last-call-deadline`), typically 14 days later. If this period results in necessary normative changes, it will revert the CLOIP to Review.
+- **Final** - This CLOIP represents the final standard. A Final CLOIP exists in a state of finality and should only be updated to correct errata and add non-normative clarifications.
+- **Stagnant** - Any CLOIP in Draft or Review if inactive for a period of 6 months or greater is moved to Stagnant. An CLOIP may be resurrected from this state by Authors or CLOIP Editors by moving it back to Draft.
+- **Withdrawn** - The CLOIP Author(s) have withdrawn the proposed CLOIP. This state has finality and can no longer be resurrected using this CLOIP number. If the idea is pursued at later date, it is considered a new proposal.
+- **Living** - A special status for CLOIPs that are designed to be continually updated and not reach a state of finality. This includes, most notably, CLOIP-1.
 
 ## CLOIP Types
 
