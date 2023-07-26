@@ -40,7 +40,6 @@ REVERT (0xfe)
 
 
 ## CLOIP Workflow
-## CLOIP Workflow
 
 The CLOIP process begins with an idea for improving the Callisto Network. These improvement ideas can range from core protocol changes, to the applications, frameworks, and protocols built on top of the Callisto Network, and even organizational changes or improvements.
 
@@ -62,10 +61,6 @@ Here's a detailed explanation of each status a CLOIP may have:
 
 - **Living**: A special status for CLOIPs that are designed to be continually updated and not reach a state of finality.
 
-Below is a diagram that illustrates the CLOIP process:
-
-![CLOIP Status Diagram] [link]
-
 Please remember that making a CLOIP does not guarantee that it will be implemented. That decision is left up to the individual project maintainers.
 
 
@@ -73,7 +68,7 @@ Please remember that making a CLOIP does not guarantee that it will be implement
 
 The process involves you, the CLOIP author, and the CLOIP editors. 
 
-Before formalizing a CLOIP, you should validate your idea with the Callisto Network community to avoid redundancy. We recommend initiating a discussion thread on the official Telegram channel [Link].
+Before formalizing a CLOIP, you should validate your idea with the Callisto Network community to avoid redundancy. We recommend initiating a discussion thread on the official Telegram channel [https://t.me/CallistoNet].
 
 Following validation, your responsibility will be to present your CLOIP to reviewers, invite editors, developers, and the community to provide feedback on the dedicated channels.
 
