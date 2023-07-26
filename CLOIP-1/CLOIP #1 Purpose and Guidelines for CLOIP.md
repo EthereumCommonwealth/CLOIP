@@ -63,6 +63,9 @@ Here's a detailed explanation of each status a CLOIP may have:
 
 Please remember that making a CLOIP does not guarantee that it will be implemented. That decision is left up to the individual project maintainers.
 
+Below is a diagram that illustrates the CLOIP process:
+
+![CLOIP Status Diagram](https://github.com/EthereumCommonwealth/CLOIP/blob/main/CLOIP-1/Images/Fig1.jpg)
 
 ### Shepherding a CLOIP
 
