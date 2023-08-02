@@ -38,3 +38,40 @@ Standard CLOIPs can be broken down into the following categories:
 
 Describes a Callisto Network design issue or provides general guidelines or information to the Callisto Network community but does not propose a new feature. Informational CLOIPs do not necessarily represent Callisto Network community consensus or a recommendation, so users and implementers are free to ignore Informational CLOIPs or follow their advice.
 
+## Callisto Network CLOIP Contribution Rewards
+
+To encourage innovation and constructive dialogue within the community, Callisto Network is introducing a reward scheme for the most valuable contributions to the Callisto Network Improvements Proposals (CLOIP). The Callisto Network Treasury will grant the rewards.
+
+The rewards structure is as follows:
+
+### Outstanding Comprehensive Contribution - $300 
+
+This reward is granted to the contributor who provides an exceptional and comprehensive contribution to an existing CLOIP.
+
+To qualify, a contribution should include:
+* A detailed analysis of the proposal
+* Comprehensive feedback
+* Alternative solutions (if applicable)
+
+### Insightful Critical Analysis - $150 
+
+This reward is granted to the contributor who provides an insightful and valuable critical analysis of an existing CLOIP.
+
+To qualify, a contribution should include:
+* A description of the potential challenges
+* Areas for improvement
+* Impact analysis
+
+### Extra Reward - $50 
+
+This reward is awarded for the contribution that, in addition to providing a detailed analysis or proposal, outlines a practical implementation strategy for the proposed change.
+
+## Participation Rules:
+
+* Contributions are accepted from the "Draft" up to the "Last Call" stages.
+* All contributions and proposals must be original. Any plagiarism will result in disqualification.
+* Only the most insightful, detailed, and outstanding contributions will be considered for rewards.
+* The decision for reward allocation is solely at the discretion of the CLOIP editors.
+* Rewards are paid in CLO, equivalent to the stated USD amounts.
+* Authors of rewarded contributions will be announced on the respective CLOIP when the proposal reaches its 'Final' stage.
+
