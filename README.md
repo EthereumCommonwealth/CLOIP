@@ -75,3 +75,18 @@ This reward is awarded for the contribution that, in addition to providing a det
 * Rewards are paid in CLO, equivalent to the stated USD amounts.
 * Authors of rewarded contributions will be announced on the respective CLOIP when the proposal reaches its 'Final' stage.
 
+## Community discussion
+
+This repo is created to track the track the Callisto Improvement Proposals (CLOIP). Community members  can provide their feature requests, feedback, and issue reports commenting on the "issues" section of the respective CLOIP. 
+
+### Submitting a Comment
+
+To submit a comment, proposal, feature request, bug report, or any other feedback, please follow the steps below:
+
+1. Register a Github account.
+2. Navigate to the [EthereumCommonwealth/CLOIP/issues](https://github.com/EthereumCommonwealth/CLOIP/issues) page.
+3. Find and select the relevant CLOIP thread you wish to comment on.
+4. Describe your feedback.
+6. Submit new **Comment**.
+
+The received feedback will be discussed in the respective issue thread.
