@@ -8,7 +8,9 @@ created: 2023-08-31
 ---
 
 ## Abstract
-The Callisto Network's Skuld Hard Fork introduces burning mechanisms, variable block sizes, increased minimum gas fees, and reduced block times to optimize security, scalability, and economic incentives, mirroring some of Ethereum's EIP-1559 features.
+The Callisto Network's Skuld Hard Fork introduces burning mechanisms, variable block sizes, increased minimum gas fees, and reduced block times to optimize security, scalability, and economic incentives, mirroring some of Ethereum's EIP-1559 features. This document proposes the following blocks at which to implement these changes in the Callisto networks:
+
+13_200_001 on Callisto PoW-mainnet (September 22nd, 2023)
 
 ## Motivation
 With the blockchain ecosystem's rapid expansion, Layer 1 platforms are encountering significant scalability issues. It's paramount to address these without compromising security and decentralization for wider adoption and longevity. The Callisto Network's Skuld Hard Fork is driven by the necessity to boost platform efficiency, fortify its economic model, and refine user experience, all while ensuring robust security. Furthermore, this initiative capitalizes on emerging edge computing infrastructures and advancements in network connectivity ushered in by 5G and subsequent generations.
