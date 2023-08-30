@@ -86,7 +86,7 @@ To submit a comment, proposal, feature request, bug report, or any other feedbac
 1. Register a Github account.
 2. Navigate to the [EthereumCommonwealth/CLOIP/issues](https://github.com/EthereumCommonwealth/CLOIP/issues) page.
 3. Find and select the relevant CLOIP thread you wish to comment on.
-4. Describe your feedback.
+4. Provide your feedback in the respective textbox.
 6. Submit new **Comment**.
 
 The received feedback will be discussed in the respective issue thread.
